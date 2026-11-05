@@ -1,0 +1,1029 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>World of Coffee | A Beautiful Moment in Every Cup</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="site-header sticky-header">
+
+        <a class="brand" href="#home">
+            <span class="brand-mark">W</span>
+            <span>WORLD <em>OF</em> COFFEE</span>
+        </a>
+
+        <button
+            type="button"
+            class="menu-toggle"
+            aria-label="Open navigation"
+            aria-expanded="false"
+        >
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="main-nav" aria-label="Main navigation">
+            <a class="active" href="#home" aria-current="page">Home</a>
+            <a href="#coffee">Our Coffee</a>
+            <a href="#story">Our Story</a>
+            <a href="#cafe">Our Café</a>
+            <a href="#order">Order Online</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a class="header-order" href="#order">Order now ↗</a>
+
+    </header>
+
+    <main>
+
+        <!-- HOME SECTION -->
+        <section class="hero" id="home">
+
+            <div class="hero-copy">
+
+                <p class="eyebrow">
+                    A LITTLE MOMENT, BEAUTIFULLY MADE
+                </p>
+
+                <h1>
+                    A Beautiful Moment
+                    <br>
+                    in Every <i>Cup.</i>
+                </h1>
+
+                <p class="hero-description">
+                    Discover the art of exceptional coffee.
+                    Carefully selected beans, beautifully crafted
+                    flavors, and moments worth slowing down for.
+                </p>
+
+                <div class="hero-actions">
+
+                    <a class="button button-dark" href="#coffee">
+                        Explore our coffee ↗
+                    </a>
+
+                    <a class="text-link" href="#story">
+                        Our story →
+                    </a>
+
+                </div>
+
+                <div class="hero-note">
+                    — GOOD COFFEE. GOOD MOMENTS.
+                </div>
+
+            </div>
+
+            <div class="hero-visual">
+
+                <div class="hero-image-wrap">
+                    <img
+                        src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=1200&q=85"
+                        alt="Fresh coffee on a wooden café table"
+                    >
+                </div>
+
+                <div class="hero-stamp">
+                    <span>EST.</span>
+                    <strong>2026</strong>
+                    <span>COFFEE<br>HOUSE</span>
+                </div>
+
+                <div class="hero-caption">
+                    <span>01 / 03</span>
+                    <span>THE ART OF SLOWING DOWN</span>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- INTRODUCTION -->
+        <section class="intro-section section-pad">
+
+            <div class="section-kicker">
+                THE WORLD OF COFFEE
+            </div>
+
+            <div class="intro-grid">
+
+                <h2>
+                    More than a drink.
+                    <br>
+                    <i>A feeling.</i>
+                </h2>
+
+                <div>
+                    <p>
+                        We believe the best moments are often the
+                        simplest ones. The aroma of freshly ground
+                        beans, a favorite book, a familiar face,
+                        and a cup made just right.
+                    </p>
+
+                    <a class="underlined-link" href="#story">
+                        Discover our philosophy ↗
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- COFFEE GALLERY -->
+        <section class="coffee-showcase section-pad">
+
+            <div class="section-heading">
+
+                <div>
+                    <div class="section-kicker">
+                        MADE WITH CARE
+                    </div>
+
+                    <h2>
+                        Find your <i>favorite.</i>
+                    </h2>
+                </div>
+
+                <a class="underlined-link" href="#coffee">
+                    View all coffee ↗
+                </a>
+
+            </div>
+
+            <div class="gallery-controls">
+
+                <span>SCROLL TO EXPLORE</span>
+
+                <div>
+                    <button
+                        type="button"
+                        class="gallery-prev"
+                        aria-label="Previous coffees"
+                    >
+                        ←
+                    </button>
+
+                    <button
+                        type="button"
+                        class="gallery-next"
+                        aria-label="Next coffees"
+                    >
+                        →
+                    </button>
+                </div>
+
+            </div>
+
+            <div class="coffee-track" data-auto-scroll>
+
+                <article class="coffee-card">
+
+                    <button
+                        type="button"
+                        class="focus-image"
+                        aria-label="Focus Espresso image"
+                    >
+                        <img
+                            src="https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?auto=format&fit=crop&w=700&q=85"
+                            alt="Espresso coffee"
+                            loading="lazy"
+                        >
+                    </button>
+
+                    <div class="coffee-card-meta">
+                        <span>01</span>
+                        <span>MADE WITH CARE</span>
+                    </div>
+
+                    <h3>Espresso</h3>
+                    <p>Rich, concentrated, and full of character.</p>
+
+                </article>
+
+                <article class="coffee-card">
+
+                    <button
+                        type="button"
+                        class="focus-image"
+                        aria-label="Focus Americano image"
+                    >
+                        <img
+                            src="https://images.unsplash.com/photo-1497515114629-f71d768fd07c?auto=format&fit=crop&w=700&q=85"
+                            alt="Americano coffee"
+                            loading="lazy"
+                        >
+                    </button>
+
+                    <div class="coffee-card-meta">
+                        <span>02</span>
+                        <span>MADE WITH CARE</span>
+                    </div>
+
+                    <h3>Americano</h3>
+                    <p>A smooth classic with a clean finish.</p>
+
+                </article>
+
+                <article class="coffee-card">
+
+                    <button
+                        type="button"
+                        class="focus-image"
+                        aria-label="Focus Cappuccino image"
+                    >
+                        <img
+                            src="https://images.unsplash.com/photo-1570968915860-54d5c301fa9f?auto=format&fit=crop&w=700&q=85"
+                            alt="Cappuccino coffee"
+                            loading="lazy"
+                        >
+                    </button>
+
+                    <div class="coffee-card-meta">
+                        <span>03</span>
+                        <span>MADE WITH CARE</span>
+                    </div>
+
+                    <h3>Cappuccino</h3>
+                    <p>Espresso with silky milk and soft foam.</p>
+
+                </article>
+
+                <article class="coffee-card">
+
+                    <button
+                        type="button"
+                        class="focus-image"
+                        aria-label="Focus Caffè Latte image"
+                    >
+                        <img
+                            src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=700&q=85"
+                            alt="Caffè Latte coffee"
+                            loading="lazy"
+                        >
+                    </button>
+
+                    <div class="coffee-card-meta">
+                        <span>04</span>
+                        <span>MADE WITH CARE</span>
+                    </div>
+
+                    <h3>Caffè Latte</h3>
+                    <p>A comforting balance of espresso and milk.</p>
+
+                </article>
+
+                <article class="coffee-card">
+
+                    <button
+                        type="button"
+                        class="focus-image"
+                        aria-label="Focus Flat White image"
+                    >
+                        <img
+                            src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=700&q=85"
+                            alt="Flat White coffee"
+                            loading="lazy"
+                        >
+                    </button>
+
+                    <div class="coffee-card-meta">
+                        <span>05</span>
+                        <span>MADE WITH CARE</span>
+                    </div>
+
+                    <h3>Flat White</h3>
+                    <p>Velvety microfoam meets a bold espresso base.</p>
+
+                </article>
+
+                <article class="coffee-card">
+
+                    <button
+                        type="button"
+                        class="focus-image"
+                        aria-label="Focus Mocha image"
+                    >
+                        <img
+                            src="https://images.unsplash.com/photo-1579888071069-c107a6f79d82?auto=format&fit=crop&w=700&q=85"
+                            alt="Mocha coffee"
+                            loading="lazy"
+                        >
+                    </button>
+
+                    <div class="coffee-card-meta">
+                        <span>06</span>
+                        <span>MADE WITH CARE</span>
+                    </div>
+
+                    <h3>Mocha</h3>
+                    <p>A rich blend of coffee and chocolate.</p>
+
+                </article>
+
+            </div>
+
+            <p class="gallery-hint">
+                Select a photograph to bring it into focus.
+                Select it again to restore the collection.
+            </p>
+
+        </section>
+
+        <!-- FEATURE SECTION -->
+        <section class="feature-section">
+
+            <div class="feature-image">
+                <img
+                    src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=1400&q=85"
+                    alt="Warm coffee shop interior"
+                    loading="lazy"
+                >
+            </div>
+
+            <div class="feature-copy">
+
+                <div class="section-kicker">
+                    A PLACE TO PAUSE
+                </div>
+
+                <h2>
+                    Make room for
+                    <br>
+                    <i>beautiful moments.</i>
+                </h2>
+
+                <p>
+                    Come for the coffee. Stay for the atmosphere,
+                    the conversations, and the quiet moments in between.
+                </p>
+
+                <a class="button button-light" href="#cafe">
+                    Discover our café ↗
+                </a>
+
+            </div>
+
+        </section>
+
+        <!-- QUOTE SECTION -->
+        <section class="quote-section section-pad">
+
+            <div class="quote-mark">“</div>
+
+            <blockquote>
+                Some moments deserve to be enjoyed
+                <br>
+                slowly, one sip at a time.
+            </blockquote>
+
+            <p>THE WORLD OF COFFEE</p>
+
+        </section>
+
+        <!-- HOME CALL TO ACTION -->
+        <section class="home-cta">
+
+            <div>
+
+                <div class="section-kicker">
+                    YOUR NEXT FAVORITE CUP
+                </div>
+
+                <h2>
+                    Good things are
+                    <br>
+                    <i>brewing.</i>
+                </h2>
+
+            </div>
+
+            <a class="button button-dark" href="#order">
+                Explore the menu ↗
+            </a>
+
+        </section>
+
+        <!-- OUR COFFEE SECTION -->
+        <section class="page-hero" id="coffee">
+
+            <div class="page-hero-copy">
+
+                <div class="section-kicker">OUR COFFEE</div>
+
+                <h1>Discover Our Coffee Collection.</h1>
+
+                <p>
+                    Every cup has its own character. Explore our
+                    selection of carefully prepared coffee, made
+                    to bring a little more beauty to your everyday moments.
+                </p>
+
+            </div>
+
+            <div class="page-hero-image">
+                <img
+                    src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1200&q=85"
+                    alt="Coffee being prepared"
+                    loading="lazy"
+                >
+            </div>
+
+        </section>
+
+        <!-- COFFEE MENU -->
+        <section class="section-pad" id="coffee-menu">
+
+            <div class="section-heading">
+
+                <div>
+                    <div class="section-kicker">OUR MENU</div>
+
+                    <h2>
+                        Crafted for every <i>taste.</i>
+                    </h2>
+                </div>
+
+                <p class="heading-aside">
+                    Thoughtfully prepared, always inviting.
+                </p>
+
+            </div>
+
+            <div class="product-grid">
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img
+                            src="https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?auto=format&fit=crop&w=700&q=85"
+                            alt="Espresso"
+                            loading="lazy"
+                        >
+                        <span class="product-number">01</span>
+                    </div>
+
+                    <div class="product-info">
+                        <div>
+                            <h3>Espresso</h3>
+                            <p>Rich, concentrated, and full of character.</p>
+                        </div>
+                        <strong>$3.00</strong>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img
+                            src="https://images.unsplash.com/photo-1497515114629-f71d768fd07c?auto=format&fit=crop&w=700&q=85"
+                            alt="Americano"
+                            loading="lazy"
+                        >
+                        <span class="product-number">02</span>
+                    </div>
+
+                    <div class="product-info">
+                        <div>
+                            <h3>Americano</h3>
+                            <p>A smooth classic with a clean finish.</p>
+                        </div>
+                        <strong>$3.50</strong>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img
+                            src="https://images.unsplash.com/photo-1570968915860-54d5c301fa9f?auto=format&fit=crop&w=700&q=85"
+                            alt="Cappuccino"
+                            loading="lazy"
+                        >
+                        <span class="product-number">03</span>
+                    </div>
+
+                    <div class="product-info">
+                        <div>
+                            <h3>Cappuccino</h3>
+                            <p>Espresso with silky milk and soft foam.</p>
+                        </div>
+                        <strong>$4.50</strong>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img
+                            src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=700&q=85"
+                            alt="Caffè Latte"
+                            loading="lazy"
+                        >
+                        <span class="product-number">04</span>
+                    </div>
+
+                    <div class="product-info">
+                        <div>
+                            <h3>Caffè Latte</h3>
+                            <p>A comforting balance of espresso and milk.</p>
+                        </div>
+                        <strong>$4.75</strong>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img
+                            src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=700&q=85"
+                            alt="Flat White"
+                            loading="lazy"
+                        >
+                        <span class="product-number">05</span>
+                    </div>
+
+                    <div class="product-info">
+                        <div>
+                            <h3>Flat White</h3>
+                            <p>Velvety microfoam meets a bold espresso base.</p>
+                        </div>
+                        <strong>$4.50</strong>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img
+                            src="https://images.unsplash.com/photo-1579888071069-c107a6f79d82?auto=format&fit=crop&w=700&q=85"
+                            alt="Mocha"
+                            loading="lazy"
+                        >
+                        <span class="product-number">06</span>
+                    </div>
+
+                    <div class="product-info">
+                        <div>
+                            <h3>Mocha</h3>
+                            <p>A rich blend of coffee and chocolate.</p>
+                        </div>
+                        <strong>$5.00</strong>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img
+                            src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=700&q=85"
+                            alt="Iced Latte"
+                            loading="lazy"
+                        >
+                        <span class="product-number">07</span>
+                    </div>
+
+                    <div class="product-info">
+                        <div>
+                            <h3>Iced Latte</h3>
+                            <p>Chilled espresso and milk, served over ice.</p>
+                        </div>
+                        <strong>$4.75</strong>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img
+                            src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=700&q=85"
+                            alt="Caramel Macchiato"
+                            loading="lazy"
+                        >
+                        <span class="product-number">08</span>
+                    </div>
+
+                    <div class="product-info">
+                        <div>
+                            <h3>Caramel Macchiato</h3>
+                            <p>Creamy coffee with a caramel finish.</p>
+                        </div>
+                        <strong>$5.25</strong>
+                    </div>
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- OUR STORY SECTION -->
+        <section class="page-hero" id="story">
+
+            <div class="page-hero-copy">
+
+                <div class="section-kicker">OUR STORY</div>
+
+                <h1>More Than Coffee. A Way of Life.</h1>
+
+                <p>
+                    At World of Coffee, we believe coffee is more than
+                    a drink. It is a moment of comfort, creativity,
+                    and connection. Our passion brings together
+                    carefully selected coffee beans, thoughtful
+                    preparation, and a beautiful experience in every cup.
+                </p>
+
+            </div>
+
+            <div class="page-hero-image">
+                <img
+                    src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=1200&q=85"
+                    alt="Freshly brewed coffee"
+                    loading="lazy"
+                >
+            </div>
+
+        </section>
+
+        <section class="story-content section-pad">
+
+            <div class="story-large">
+
+                <div class="section-kicker">OUR PHILOSOPHY</div>
+
+                <h2>
+                    Small details.
+                    <br>
+                    <i>Meaningful moments.</i>
+                </h2>
+
+            </div>
+
+            <div class="story-text">
+
+                <p>
+                    World of Coffee was imagined around a simple idea:
+                    a coffee break can be more than a pause in the day.
+                    It can be a moment to reconnect, to think, to read,
+                    or simply to enjoy being present.
+                </p>
+
+                <p>
+                    From the beans we choose to the way each cup is
+                    served, we value care, quality, and thoughtful details.
+                    We want every visit to feel welcoming and every cup
+                    to feel special.
+                </p>
+
+                <a class="underlined-link" href="#cafe">
+                    Explore our café ↗
+                </a>
+
+            </div>
+
+        </section>
+
+        <section class="wide-photo">
+            <img
+                src="https://images.unsplash.com/photo-1498804103079-a6351b050096?auto=format&fit=crop&w=1600&q=85"
+                alt="Coffee and pastries on a café table"
+                loading="lazy"
+            >
+        </section>
+
+        <!-- OUR CAFE SECTION -->
+        <section class="page-hero" id="cafe">
+
+            <div class="page-hero-copy">
+
+                <div class="section-kicker">OUR CAFÉ</div>
+
+                <h1>A Space Made for Beautiful Moments.</h1>
+
+                <p>
+                    A welcoming space where beautiful interiors,
+                    wonderful aromas, and exceptional coffee come together.
+                    Whether you're meeting friends or enjoying a quiet
+                    moment, there's always a place for you.
+                </p>
+
+            </div>
+
+            <div class="page-hero-image">
+                <img
+                    src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=1200&q=85"
+                    alt="Welcoming café interior"
+                    loading="lazy"
+                >
+            </div>
+
+        </section>
+
+        <section class="cafe-details section-pad">
+
+            <div>
+                <div class="section-kicker">COME AS YOU ARE</div>
+
+                <h2>
+                    A corner for
+                    <br>
+                    <i>every kind of day.</i>
+                </h2>
+            </div>
+
+            <div class="cafe-detail-copy">
+
+                <p>
+                    Settle into a comfortable seat, open a book,
+                    catch up with someone, or take a little time
+                    for yourself. Our café is imagined as a calm
+                    and welcoming place where good coffee and
+                    good company belong together.
+                </p>
+
+                <a class="button button-dark" href="#order">
+                    See the menu ↗
+                </a>
+
+            </div>
+
+        </section>
+
+        <section class="cafe-gallery">
+
+            <img
+                src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=900&q=85"
+                alt="Bright café seating"
+                loading="lazy"
+            >
+
+            <img
+                src="https://images.unsplash.com/photo-1493857671505-72967e2e2760?auto=format&fit=crop&w=900&q=85"
+                alt="Coffee shop interior"
+                loading="lazy"
+            >
+
+            <img
+                src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=85"
+                alt="Warm café seating"
+                loading="lazy"
+            >
+
+        </section>
+
+        <!-- ORDER ONLINE SECTION -->
+        <section class="page-hero" id="order">
+
+            <div class="page-hero-copy">
+
+                <div class="section-kicker">ORDER ONLINE</div>
+
+                <h1>Your Favorite Coffee, Just a Click Away.</h1>
+
+                <p>
+                    Explore our collection, choose your favorite coffee,
+                    and create your perfect order from the comfort
+                    of your home.
+                </p>
+
+            </div>
+
+            <div class="page-hero-image">
+                <img
+                    src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1200&q=85"
+                    alt="Coffee ready to enjoy"
+                    loading="lazy"
+                >
+            </div>
+
+        </section>
+
+        <section class="section-pad order-section">
+
+            <div class="section-heading">
+
+                <div>
+                    <div class="section-kicker">THE MENU</div>
+
+                    <h2>
+                        Choose your <i>coffee.</i>
+                    </h2>
+                </div>
+
+                <p class="heading-aside">
+                    A little something for your day.
+                </p>
+
+            </div>
+
+            <div class="order-layout">
+
+                <div class="order-products" id="order-products">
+                </div>
+
+                <aside class="cart-panel">
+
+                    <div class="cart-heading">
+                        <h3>Your order</h3>
+                        <span id="cart-count">0 items</span>
+                    </div>
+
+                    <div class="cart-items" id="cart-items">
+                        <p class="empty-cart">
+                            Your basket is waiting for something lovely.
+                        </p>
+                    </div>
+
+                    <div class="cart-total">
+                        <span>Total</span>
+                        <strong id="cart-total">$0.00</strong>
+                    </div>
+
+                    <form id="checkout-form">
+
+                        <label for="customer-name">Your name</label>
+                        <input
+                            id="customer-name"
+                            placeholder="Full name"
+                            required
+                        >
+
+                        <label for="customer-email">Email address</label>
+                        <input
+                            id="customer-email"
+                            placeholder="Email address"
+                            type="email"
+                            required
+                        >
+
+                        <button
+                            class="button button-dark full-button"
+                            type="submit"
+                        >
+                            Place demo order ↗
+                        </button>
+
+                        <p class="demo-note">
+                            Demo only — no payment will be collected
+                            and no real order is sent.
+                        </p>
+
+                    </form>
+
+                </aside>
+
+            </div>
+
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section class="page-hero" id="contact">
+
+            <div class="page-hero-copy">
+
+                <div class="section-kicker">CONTACT</div>
+
+                <h1>We'd Love to Hear From You.</h1>
+
+                <p>
+                    Whether you have a question, a suggestion,
+                    or simply want to say hello, we'd be delighted
+                    to hear from you.
+                </p>
+
+            </div>
+
+            <div class="page-hero-image">
+                <img
+                    src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=1200&q=85"
+                    alt="People sitting together in a welcoming café with books and coffee"
+                    loading="lazy"
+                >
+            </div>
+
+        </section>
+
+        <section class="contact-section section-pad">
+
+            <div class="contact-copy">
+
+                <div class="section-kicker">LET'S CONNECT</div>
+
+                <h2>
+                    Send us a <i>message.</i>
+                </h2>
+
+                <p>
+                    We would be happy to hear from you. Leave us a note
+                    and this demo form will show a confirmation
+                    on your screen.
+                </p>
+
+                <div class="contact-details">
+
+                    <div>
+                        <span>EMAIL</span>
+                        <p>hello@worldofcoffee.example</p>
+                    </div>
+
+                    <div>
+                        <span>FOLLOW ALONG</span>
+                        <p>Instagram · Pinterest</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <form class="contact-form" id="contact-form">
+
+                <label for="contact-name">Full name</label>
+                <input
+                    id="contact-name"
+                    placeholder="Your name"
+                    required
+                >
+
+                <label for="contact-email">Email address</label>
+                <input
+                    id="contact-email"
+                    placeholder="Your email"
+                    type="email"
+                    required
+                >
+
+                <label for="contact-subject">Subject</label>
+                <input
+                    id="contact-subject"
+                    placeholder="What is this about?"
+                >
+
+                <label for="contact-message">Your message</label>
+                <textarea
+                    id="contact-message"
+                    placeholder="Write your message here..."
+                    rows="5"
+                    required
+                ></textarea>
+
+                <button class="button button-dark" type="submit">
+                    Send message ↗
+                </button>
+
+                <p
+                    class="form-feedback"
+                    id="contact-feedback"
+                    aria-live="polite"
+                ></p>
+
+            </form>
+
+        </section>
+
+        <section class="contact-note">
+
+            <div class="contact-note-inner">
+                <span>TAKE A MOMENT</span>
+
+                <p>
+                    Good coffee is even better
+                    <br>
+                    when it is shared.
+                </p>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+
+        <a class="brand brand-footer" href="#home">
+            <span class="brand-mark">W</span>
+            <span>WORLD <em>OF</em> COFFEE</span>
+        </a>
+
+        <p>A Beautiful Moment in Every Cup.</p>
+
+        <div class="footer-links">
+            <a href="#coffee">Coffee</a>
+            <a href="#story">Our Story</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <small>
+            © 2026 World of Coffee. A concept café website.
+        </small>
+
+    </footer>
+
+</body>
+</html>
